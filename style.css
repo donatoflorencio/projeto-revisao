@@ -18,7 +18,7 @@ body, html {
 
 .container {
   width: 80%;
-  height: 60%;
+  height: 80%;
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ body, html {
 
 .container p {
   color: rgba(0, 0, 0, 0.641);
-  font-size: 2em;
+  font-size: 2.3em;
   text-shadow: 5px 5px 5px #00000091;
 }
 
@@ -39,20 +39,25 @@ body, html {
 }
 
 #yes {
-  position: fixed;
-  left: 20%;
+  position: absolute;
+  left: 30%;
+  transform: translate(-50%, -50%);
 }
 
 #no {
-  position: fixed;
-  left: 65%;
+  position: absolute;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  transition: .6s;
+  
 }
 
 .sub-container .btn-light {
-  padding: 20px 40px;
+  padding: 20px 30px;
   border: 5px solid;
   border-radius: 7px;
   font-size: 1.4em;
   letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
